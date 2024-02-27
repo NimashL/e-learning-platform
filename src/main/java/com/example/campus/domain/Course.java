@@ -3,6 +3,7 @@ package com.example.campus.domain;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
 import java.util.Date;
 
 @Entity
@@ -29,7 +30,7 @@ public class Course {
     private String duration;
 
     @Column(name = "course_fee")
-    private Decim courseFee;
+    private BigDecimal courseFee;
 
     @Column(name = "created_date")
     private Date createdDate;
