@@ -3,3 +3,8 @@ databaseChangeLog:
       file: "db/tables/user.yml"
   - include:
       file: "db/tables/course.yml"
+databaseChangeLog:
+  - include:
+      file: "db/tables/user.yml"
+  - include:
+      file: "db/tables/course.yml"
